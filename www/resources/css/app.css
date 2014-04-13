@@ -1,0 +1,11 @@
+.movie-bubble {
+    position: relative;
+    min-height: 100px;
+    margin-left: 15px;
+    overflow: hidden;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #eee;
+    -webkit-box-flex: 1;
+    box-flex: 1
+}

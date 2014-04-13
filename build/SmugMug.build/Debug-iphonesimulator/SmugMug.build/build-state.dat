@@ -1,0 +1,768 @@
+TSmugMug
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Info.plist /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh
+cCpResource SmugMug/config.xml build/SmugMug.app/config.xml
+cCpResource SmugMug/Resources/icons/icon-72.png build/SmugMug.app/icon-72.png
+cCpResource SmugMug/Resources/icons/icon.png build/SmugMug.app/icon.png
+cCpResource SmugMug/Resources/icons/icon@2x.png build/SmugMug.app/icon@2x.png
+cCpResource SmugMug/Resources/Capture.bundle build/SmugMug.app/Capture.bundle
+cCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/en.lproj/Localizable.strings SmugMug/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/es.lproj/Localizable.strings SmugMug/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib
+cCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/de.lproj/Localizable.strings SmugMug/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/se.lproj/Localizable.strings SmugMug/Resources/se.lproj/Localizable.strings
+cCpResource SmugMug/Resources/splash/Default-Landscape@2x~ipad.png build/SmugMug.app/Default-Landscape@2x~ipad.png
+cCpResource SmugMug/Resources/splash/Default-Landscape~ipad.png build/SmugMug.app/Default-Landscape~ipad.png
+cCpResource SmugMug/Resources/splash/Default-Portrait@2x~ipad.png build/SmugMug.app/Default-Portrait@2x~ipad.png
+cCpResource SmugMug/Resources/splash/Default-Portrait~ipad.png build/SmugMug.app/Default-Portrait~ipad.png
+cCpResource SmugMug/Resources/splash/Default@2x~iphone.png build/SmugMug.app/Default@2x~iphone.png
+cCpResource SmugMug/Resources/splash/Default~iphone.png build/SmugMug.app/Default~iphone.png
+cCpResource SmugMug/Resources/splash/Default-568h@2x~iphone.png build/SmugMug.app/Default-568h@2x~iphone.png
+cCpResource SmugMug/Resources/icons/icon-72@2x.png build/SmugMug.app/icon-72@2x.png
+cProcessPCH /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch SmugMug/SmugMug-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug normal i386
+cGenerateDSYMFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug
+cTouch /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534A08BB0000000000000198
+t1397360827
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005321234400000000000003B4
+t1394680644
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053212347000000000000019E
+t1394680647
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000532123480000000000484210
+t1394680648
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000053212348000000000019D2D0
+t1394680648
+s1692368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000532123480000000000505040
+t1394680648
+s5263424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000532123480000000000059340
+t1394680648
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000532123490000000000904120
+t1394680649
+s9453856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053212349000000000058E0E0
+t1394680649
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534A08A20000000000446820
+t1397360802
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005321234800000000000F1A80
+t1394680648
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000053212349000000000013B8C0
+t1394680649
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053212349000000000088D8C0
+t1394680649
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005321234A0000000000799E30
+t1394680650
+s7970352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005321234A00000000001BE790
+t1394680650
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005321234A000000000048F720
+t1394680650
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005321234A00000000001081C0
+t1394680650
+s1081792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005321234C0000000001F1DE10
+t1394680652
+s32628240
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m
+c00000000534A122F00000000000013D4
+t1397363247
+s5076
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m
+c00000000534A122F0000000000001268
+t1397363247
+s4712
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib
+c00000000534A122F0000000000001759
+t1397363247
+s5977
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/Capture.bundle
+c00000000534A122F000000000000030E
+t1397363247
+s782
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/de.lproj/Localizable.strings
+c00000000534A122F0000000000000485
+t1397363247
+s1157
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/en.lproj/Localizable.strings
+c00000000534A122F0000000000000470
+t1397363247
+s1136
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/es.lproj/Localizable.strings
+c00000000534A122F000000000000047D
+t1397363247
+s1149
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon-72.png
+c00000000534A122F0000000000001350
+t1397363247
+s4944
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon-72@2x.png
+c00000000534A122F0000000000002DBA
+t1397363247
+s11706
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon.png
+c00000000534A122F0000000000000F3E
+t1397363247
+s3902
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon@2x.png
+c00000000534A122F0000000000001EBD
+t1397363247
+s7869
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/se.lproj/Localizable.strings
+c00000000534A122F0000000000000471
+t1397363247
+s1137
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-568h@2x~iphone.png
+c00000000534A122F00000000000085B1
+t1397363247
+s34225
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000534A122F0000000000012DF4
+t1397363247
+s77300
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Landscape~ipad.png
+c00000000534A122F0000000000008877
+t1397363247
+s34935
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000534A122F0000000000012B02
+t1397363247
+s76546
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Portrait~ipad.png
+c00000000534A122F00000000000085E6
+t1397363247
+s34278
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default@2x~iphone.png
+c00000000534A122F0000000000007323
+t1397363247
+s29475
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default~iphone.png
+c00000000534A122F000000000000289A
+t1397363247
+s10394
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist
+c00000000534A122F00000000000009DE
+t1397363247
+s2526
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Prefix.pch
+c00000000534A122F00000000000003BF
+t1397363247
+s959
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/config.xml
+c00000000534A122F0000000000000B6B
+t1397363247
+s2923
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m
+c00000000534A122F0000000000000459
+t1397363247
+s1113
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app
+t1397363262
+s782
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM
+t2
+s0
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Capture.bundle
+t1397363260
+s782
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-568h@2x~iphone.png
+t1397363260
+s34225
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Landscape@2x~ipad.png
+t1397363260
+s77300
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Landscape~ipad.png
+t1397363260
+s34935
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Portrait@2x~ipad.png
+t1397363260
+s76546
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Portrait~ipad.png
+t1397363260
+s34278
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default@2x~iphone.png
+t1397363260
+s29475
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default~iphone.png
+t1397363260
+s10394
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Info.plist
+t1397363260
+s1089
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/MainViewController.nib
+t1397363262
+s1332
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/PkgInfo
+t2
+s0
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug
+t1397363262
+s911776
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/config.xml
+t1397363260
+s2923
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/de.lproj/Localizable.strings
+t1397363260
+s256
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/en.lproj/Localizable.strings
+t1397363260
+s142
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/es.lproj/Localizable.strings
+t1397363260
+s308
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon-72.png
+t1397363260
+s4944
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon-72@2x.png
+t1397363260
+s11706
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon.png
+t1397363260
+s3902
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon@2x.png
+t1397363260
+s7869
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/se.lproj/Localizable.strings
+t1397363260
+s259
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o
+t1397363262
+s72268
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o
+t1397363262
+s49616
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/SmugMug.LinkFileList
+c00000000534A123C0000000000000186
+t1397363260
+s390
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o
+t1397363262
+s2932
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh
+c00000000534A123C000000000000051A
+t1397363260
+s1306
+
+N/Users/chris/pmc_dev/mobile/ios/smugmug/build/libCordova.a
+c00000000534A123C00000000002AA530
+t1397363260
+s2794800
+
+N/var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch
+t1397363262
+s5363348
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6abc7cbc49fab841^198c7dbc49fab841^---0#1#1#--18"Check dependencies36"AECDDF9A-79E6-4C23-9E15-CA47A80B6BAB-
+
+CCompileC build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419056062.638275
+e419056062.680967
+r1
+xCompileC
+xbuild/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o
+x/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVViewController.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVAvailability.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVCommandDelegate.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVCommandQueue.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVWhitelist.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVPlugin.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVPluginResult.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVCommandDelegateImpl.h
+o[1m/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m:80:25: [0m[0;1;35mwarning: [0m[1m'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen
+o      plugin instead of setting this property. [-Wdeprecated-declarations][0m
+o    self.viewController.useSplashScreen = YES;
+o[0;1;32m                        ^
+o[0mIn file included from /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m:28:
+oIn file included from /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.h:30:
+o[1m/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVViewController.h:46:47: [0m[0;1;30mnote: [0m'useSplashScreen' declared here[0m
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o[0;1;32m                                              ^
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m212"[1mCompileC[0m build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o [1mSmugMug/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5281a3be49fab841^ca53aebe49fab841^-945"[1m/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m:80:25: [0m[0;1;35mwarning: [0m[1m'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen      plugin instead of setting this property. [-Wdeprecated-declarations][0m    self.viewController.useSplashScreen = YES;[0;1;32m                        ^[0mIn file included from /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m:28:In file included from /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.h:30:[1m/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVViewController.h:46:47: [0m[0;1;30mnote: [0m'useSplashScreen' declared here[0m@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");[0;1;32m                                              ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-419056062#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-419056062#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file:///Users/chris/pmc_dev/mobile/ios/smugmug/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m0000000000000000^79#24#79#24#2692#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@76"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m0000000000000000^4665"[1mCompileC[0m build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o [1mSmugMug/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=177 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-generated-files.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-own-target-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-all-target-headers.hmap -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-project-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/usr/local/lib/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/UninstalledProducts/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources/i386 -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources -F/Users/chris/pmc_dev/mobile/ios/smugmug/build -include /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch -MMD -MT dependencies -MF /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.dia -c /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/AppDelegate.m -o /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o36"D51B9365-D648-4816-94EF-0F571195E6F5-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCompileC build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419056062.638396
+e419056062.675019
+r1
+xCompileC
+xbuild/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o
+x/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVViewController.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVAvailability.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVCommandDelegate.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVCommandQueue.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVWhitelist.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVPlugin.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVPluginResult.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m226"[1mCompileC[0m build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o [1mSmugMug/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5588a3be49fab841^d5ceacbe49fab841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m0000000000000000^4707"[1mCompileC[0m build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o [1mSmugMug/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=177 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-generated-files.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-own-target-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-all-target-headers.hmap -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-project-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/usr/local/lib/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/UninstalledProducts/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources/i386 -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources -F/Users/chris/pmc_dev/mobile/ios/smugmug/build -include /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch -MMD -MT dependencies -MF /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.dia -c /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.m -o /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o36"CCC74889-C6FF-498C-BF8A-A3E5D5C45CB4-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCompileC build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419056062.638068
+e419056062.653064
+r1
+xCompileC
+xbuild/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o
+x/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m190"[1mCompileC[0m build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o [1mSmugMug/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerea75a3be49fab841^dc2fa7be49fab841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m0000000000000000^4607"[1mCompileC[0m build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o [1mSmugMug/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=177 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-generated-files.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-own-target-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-all-target-headers.hmap -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-project-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/usr/local/lib/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/UninstalledProducts/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources/i386 -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources -F/Users/chris/pmc_dev/mobile/ios/smugmug/build -include /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch -MMD -MT dependencies -MF /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.dia -c /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/main.m -o /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o36"4605938D-2F20-469D-A72F-2B46411A014F-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCompileXIB /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib
+s419056060.571524
+e419056062.461598
+r1
+xCompileXIB
+x/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib65"[1mCompileXIB[0m [1mSmugMug/Classes/MainViewController.xib[0m107692bc49fab841^772c76be49fab841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib0000000000000000^1951"[1mCompileXIB[0m [1mSmugMug/Classes/MainViewController.xib[0m    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/MainViewController.nib /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Classes/MainViewController.xib36"7F92A159-8BE5-4245-BF84-9670E184722D-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/de.lproj/Localizable.strings SmugMug/Resources/de.lproj/Localizable.strings
+s419056060.571655
+e419056060.575846
+r1
+xCopyStringsFile
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/de.lproj/Localizable.strings
+xSmugMug/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy SmugMug/Resources/de.lproj/Localizable.strings117"[1mCopyStringsFile[0m build/SmugMug.app/de.lproj/Localizable.strings SmugMug/Resources/de.lproj/Localizable.strings1c7b92bc49fab841^4a7f93bc49fab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/de.lproj/Localizable.strings0000000000000000^1745"[1mCopyStringsFile[0m build/SmugMug.app/de.lproj/Localizable.strings SmugMug/Resources/de.lproj/Localizable.strings    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/de.lproj -- SmugMug/Resources/de.lproj/Localizable.strings36"D183CD6E-87FC-48C2-BCF8-2C5C01A645A3-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/en.lproj/Localizable.strings SmugMug/Resources/en.lproj/Localizable.strings
+s419056060.570867
+e419056060.572800
+r1
+xCopyStringsFile
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/en.lproj/Localizable.strings
+xSmugMug/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy SmugMug/Resources/en.lproj/Localizable.strings117"[1mCopyStringsFile[0m build/SmugMug.app/en.lproj/Localizable.strings SmugMug/Resources/en.lproj/Localizable.strings405092bc49fab841^60cc92bc49fab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/en.lproj/Localizable.strings0000000000000000^1745"[1mCopyStringsFile[0m build/SmugMug.app/en.lproj/Localizable.strings SmugMug/Resources/en.lproj/Localizable.strings    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/en.lproj -- SmugMug/Resources/en.lproj/Localizable.strings36"6B264379-B2E2-4701-BCDF-89D0BE95793C-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/es.lproj/Localizable.strings SmugMug/Resources/es.lproj/Localizable.strings
+s419056060.571039
+e419056060.575636
+r1
+xCopyStringsFile
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/es.lproj/Localizable.strings
+xSmugMug/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy SmugMug/Resources/es.lproj/Localizable.strings117"[1mCopyStringsFile[0m build/SmugMug.app/es.lproj/Localizable.strings SmugMug/Resources/es.lproj/Localizable.strings546e92bc49fab841^965e93bc49fab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/es.lproj/Localizable.strings0000000000000000^1745"[1mCopyStringsFile[0m build/SmugMug.app/es.lproj/Localizable.strings SmugMug/Resources/es.lproj/Localizable.strings    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/es.lproj -- SmugMug/Resources/es.lproj/Localizable.strings36"96710DBD-1233-4235-BF11-659AF5FA67BE-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCopyStringsFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/se.lproj/Localizable.strings SmugMug/Resources/se.lproj/Localizable.strings
+s419056060.572166
+e419056060.574848
+r1
+xCopyStringsFile
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/se.lproj/Localizable.strings
+xSmugMug/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy SmugMug/Resources/se.lproj/Localizable.strings117"[1mCopyStringsFile[0m build/SmugMug.app/se.lproj/Localizable.strings SmugMug/Resources/se.lproj/Localizable.strings0a9e92bc49fab841^212093bc49fab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/se.lproj/Localizable.strings0000000000000000^1745"[1mCopyStringsFile[0m build/SmugMug.app/se.lproj/Localizable.strings SmugMug/Resources/se.lproj/Localizable.strings    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/se.lproj -- SmugMug/Resources/se.lproj/Localizable.strings36"D12AEA35-BBC1-437D-B7AF-980D7941829C-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/Capture.bundle build/SmugMug.app/Capture.bundle
+s419056060.570385
+e419056060.596386
+r1
+xCpResource
+xSmugMug/Resources/Capture.bundle
+xbuild/SmugMug.app/Capture.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/SmugMug.app/Capture.bundle84"[1mCpResource[0m SmugMug/Resources/Capture.bundle build/SmugMug.app/Capture.bundle912692bc49fab841^36ad98bc49fab841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Capture.bundle0034c0d8deffdf42^1748"[1mCpResource[0m SmugMug/Resources/Capture.bundle build/SmugMug.app/Capture.bundle    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/Capture.bundle /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"C589D328-08D7-4CA4-830B-861F9013A4DD-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/icons/icon-72.png build/SmugMug.app/icon-72.png
+s419056060.569822
+e419056060.571118
+r1
+xCpResource
+xSmugMug/Resources/icons/icon-72.png
+xbuild/SmugMug.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/SmugMug.app/icon-72.png84"[1mCpResource[0m SmugMug/Resources/icons/icon-72.png build/SmugMug.app/icon-72.pngde0592bc49fab841^024b92bc49fab841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon-72.png0034c0d8deffdf42^1751"[1mCpResource[0m SmugMug/Resources/icons/icon-72.png build/SmugMug.app/icon-72.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon-72.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"E57E81BA-FD29-4D41-9C06-197BC0239C1D-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/icons/icon-72@2x.png build/SmugMug.app/icon-72@2x.png
+s419056060.579307
+e419056060.581423
+r1
+xCpResource
+xSmugMug/Resources/icons/icon-72@2x.png
+xbuild/SmugMug.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/SmugMug.app/icon-72@2x.png90"[1mCpResource[0m SmugMug/Resources/icons/icon-72@2x.png build/SmugMug.app/icon-72@2x.png548f94bc49fab841^88d894bc49fab841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon-72@2x.png0034c0d8deffdf42^1760"[1mCpResource[0m SmugMug/Resources/icons/icon-72@2x.png build/SmugMug.app/icon-72@2x.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon-72@2x.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"35464B31-CBD2-48DE-9E3F-3929F4F18C80-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/icons/icon.png build/SmugMug.app/icon.png
+s419056060.569925
+e419056060.571086
+r1
+xCpResource
+xSmugMug/Resources/icons/icon.png
+xbuild/SmugMug.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/SmugMug.app/icon.png78"[1mCpResource[0m SmugMug/Resources/icons/icon.png build/SmugMug.app/icon.png7afd91bc49fab841^d23a92bc49fab841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon.png0034c0d8deffdf42^1742"[1mCpResource[0m SmugMug/Resources/icons/icon.png build/SmugMug.app/icon.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"8F25C751-3359-475D-9F1B-CC07490EE722-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/icons/icon@2x.png build/SmugMug.app/icon@2x.png
+s419056060.570130
+e419056060.572506
+r1
+xCpResource
+xSmugMug/Resources/icons/icon@2x.png
+xbuild/SmugMug.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/SmugMug.app/icon@2x.png84"[1mCpResource[0m SmugMug/Resources/icons/icon@2x.png build/SmugMug.app/icon@2x.png833192bc49fab841^f98692bc49fab841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/icon@2x.png0034c0d8deffdf42^1751"[1mCpResource[0m SmugMug/Resources/icons/icon@2x.png build/SmugMug.app/icon@2x.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/icons/icon@2x.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"0CFDF9E2-E498-409F-987D-45C1AAAADDE7-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default-568h@2x~iphone.png build/SmugMug.app/Default-568h@2x~iphone.png
+s419056060.579111
+e419056060.581714
+r1
+xCpResource
+xSmugMug/Resources/splash/Default-568h@2x~iphone.png
+xbuild/SmugMug.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/SmugMug.app/Default-568h@2x~iphone.png115"[1mCpResource[0m SmugMug/Resources/splash/Default-568h@2x~iphone.png build/SmugMug.app/Default-568h@2x~iphone.pngb96c94bc49fab841^18ee94bc49fab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-568h@2x~iphone.png0034c0d8deffdf42^1798"[1mCpResource[0m SmugMug/Resources/splash/Default-568h@2x~iphone.png build/SmugMug.app/Default-568h@2x~iphone.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-568h@2x~iphone.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"E0B5428E-3A8E-4EF5-8E04-22E1FEB4A99C-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default-Landscape@2x~ipad.png build/SmugMug.app/Default-Landscape@2x~ipad.png
+s419056060.572453
+e419056060.575816
+r1
+xCpResource
+xSmugMug/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/SmugMug.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/SmugMug.app/Default-Landscape@2x~ipad.png121"[1mCpResource[0m SmugMug/Resources/splash/Default-Landscape@2x~ipad.png build/SmugMug.app/Default-Landscape@2x~ipad.pngc2c192bc49fab841^e36b93bc49fab841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Landscape@2x~ipad.png0034c0d8deffdf42^1807"[1mCpResource[0m SmugMug/Resources/splash/Default-Landscape@2x~ipad.png build/SmugMug.app/Default-Landscape@2x~ipad.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Landscape@2x~ipad.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"18EB9E9D-69AE-49BB-B7FD-2FE2EBCEDC62-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default-Landscape~ipad.png build/SmugMug.app/Default-Landscape~ipad.png
+s419056060.572996
+e419056060.577281
+r1
+xCpResource
+xSmugMug/Resources/splash/Default-Landscape~ipad.png
+xbuild/SmugMug.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/SmugMug.app/Default-Landscape~ipad.png115"[1mCpResource[0m SmugMug/Resources/splash/Default-Landscape~ipad.png build/SmugMug.app/Default-Landscape~ipad.png103b93bc49fab841^63d293bc49fab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Landscape~ipad.png0034c0d8deffdf42^1798"[1mCpResource[0m SmugMug/Resources/splash/Default-Landscape~ipad.png build/SmugMug.app/Default-Landscape~ipad.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Landscape~ipad.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"C900F52C-8C08-43DA-B049-435ED0AA5739-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default-Portrait@2x~ipad.png build/SmugMug.app/Default-Portrait@2x~ipad.png
+s419056060.574187
+e419056060.578375
+r1
+xCpResource
+xSmugMug/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/SmugMug.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/SmugMug.app/Default-Portrait@2x~ipad.png119"[1mCpResource[0m SmugMug/Resources/splash/Default-Portrait@2x~ipad.png build/SmugMug.app/Default-Portrait@2x~ipad.png7b2e93bc49fab841^24d593bc49fab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Portrait@2x~ipad.png0034c0d8deffdf42^1804"[1mCpResource[0m SmugMug/Resources/splash/Default-Portrait@2x~ipad.png build/SmugMug.app/Default-Portrait@2x~ipad.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Portrait@2x~ipad.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"88FA690C-E835-4695-82F1-23B3B4604CA1-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default-Portrait~ipad.png build/SmugMug.app/Default-Portrait~ipad.png
+s419056060.575045
+e419056060.577592
+r1
+xCpResource
+xSmugMug/Resources/splash/Default-Portrait~ipad.png
+xbuild/SmugMug.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/SmugMug.app/Default-Portrait~ipad.png113"[1mCpResource[0m SmugMug/Resources/splash/Default-Portrait~ipad.png build/SmugMug.app/Default-Portrait~ipad.png874e93bc49fab841^473994bc49fab841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default-Portrait~ipad.png0034c0d8deffdf42^1795"[1mCpResource[0m SmugMug/Resources/splash/Default-Portrait~ipad.png build/SmugMug.app/Default-Portrait~ipad.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default-Portrait~ipad.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"65E35030-5969-4D66-8F59-DC6FAAFAFDCF-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default@2x~iphone.png build/SmugMug.app/Default@2x~iphone.png
+s419056060.575916
+e419056060.580788
+r1
+xCpResource
+xSmugMug/Resources/splash/Default@2x~iphone.png
+xbuild/SmugMug.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/SmugMug.app/Default@2x~iphone.png105"[1mCpResource[0m SmugMug/Resources/splash/Default@2x~iphone.png build/SmugMug.app/Default@2x~iphone.png844694bc49fab841^18b094bc49fab841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default@2x~iphone.png0034c0d8deffdf42^1783"[1mCpResource[0m SmugMug/Resources/splash/Default@2x~iphone.png build/SmugMug.app/Default@2x~iphone.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default@2x~iphone.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"EF191B20-DC6C-4FE4-9201-028BBAC0F154-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/Resources/splash/Default~iphone.png build/SmugMug.app/Default~iphone.png
+s419056060.576361
+e419056060.578160
+r1
+xCpResource
+xSmugMug/Resources/splash/Default~iphone.png
+xbuild/SmugMug.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/SmugMug.app/Default~iphone.png99"[1mCpResource[0m SmugMug/Resources/splash/Default~iphone.png build/SmugMug.app/Default~iphone.png0da893bc49fab841^6a4c94bc49fab841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Default~iphone.png0034c0d8deffdf42^1774"[1mCpResource[0m SmugMug/Resources/splash/Default~iphone.png build/SmugMug.app/Default~iphone.png    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/Resources/splash/Default~iphone.png /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"6A169D2A-9760-45FC-9627-E9258E84B895-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CCpResource SmugMug/config.xml build/SmugMug.app/config.xml
+s419056060.569718
+e419056060.570979
+r1
+xCpResource
+xSmugMug/config.xml
+xbuild/SmugMug.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy build/SmugMug.app/config.xml66"[1mCpResource[0m SmugMug/config.xml build/SmugMug.app/config.xmla2f091bc49fab841^232c92bc49fab841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/config.xml0034c0d8deffdf42^1716"[1mCpResource[0m SmugMug/config.xml build/SmugMug.app/config.xml    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/config.xml /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"8E59D465-9AF1-4673-8BB8-1674C32B634E-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CGenerateDSYMFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug
+s419056062.875281
+e419056062.939307
+r1
+xGenerateDSYMFile
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Generate /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM81"[1mGenerateDSYMFile[0m [1mbuild/SmugMug.app.dSYM[0m build/SmugMug.app/SmugMug8926e0be49fab841^d176f0be49fab841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM0034c0d8deffdf42^1734"[1mGenerateDSYMFile[0m [1mbuild/SmugMug.app.dSYM[0m build/SmugMug.app/SmugMug    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug -o /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app.dSYM36"DEB3EF53-5332-4F07-8FD7-F5858C52816A-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CLd /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug normal i386
+s419056062.682403
+e419056062.874612
+r1
+xLd
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug
+xnormal
+xi386
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/SmugMug.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/main.o
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/AppDelegate.o
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Users/chris/pmc_dev/mobile/ios/smugmug/build/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug48"[1mLd[0m build/SmugMug.app/SmugMug normal i3865cc9aebe49fab841^8ee7dfbe49fab841^---0#0#1#--2924"[1mLd[0m build/SmugMug.app/SmugMug normal i386    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/chris/pmc_dev/mobile/ios/smugmug/build -F/Users/chris/pmc_dev/mobile/ios/smugmug/build -filelist /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/SmugMug.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/chris/pmc_dev/mobile/ios/smugmug/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -Xlinker -dependency_info -Xlinker /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/SmugMug_dependency_info.dat -o /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/SmugMug36"AD6D5E3D-4918-40EB-803D-6654E4DF5B55-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CPhaseScriptExecution Copy\ www\ directory /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh
+s419056060.494506
+e419056060.569378
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.062s
+ouser	0m0.024s
+osys	0m0.036s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'140"[1mPhaseScriptExecution[0m Copy\ www\ directory build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh300d7fbc49fab841^1ec591bc49fab841^-42"real	0m0.062suser	0m0.024ssys	0m0.036s3(21%IDEActivityLogMessage2@14"real	0m0.062s-419056060#1#14#-0#-----2@14"user	0m0.024s-419056060#15#14#-0#-----2@13"sys	0m0.036s-419056060#29#13#-0#-----0#0#1#--21556"[1mPhaseScriptExecution[0m Copy\ www\ directory build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=chris    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=i386    export ARCHS_STANDARD="i386 x86_64"    export ARCHS_STANDARD_32_64_BIT="i386 x86_64"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT="i386 x86_64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export BUILD_ROOT=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export CACHE_ROOT=/var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_ENABLE_OBJC_ARC=NO    export CLANG_WARN_CONSTANT_CONVERSION=YES    export CLANG_WARN_ENUM_CONVERSION=YES    export CLANG_WARN_INT_CONVERSION=YES    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES    export CLASS_FILE_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app    export CODE_SIGNING_ALLOWED=NO    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneSimulatorCodeSignContext    export COLOR_DIAGNOSTICS=YES    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=YES    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export CONFIGURATION_TEMP_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator    export CONTENTS_FOLDER_PATH=SmugMug.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=i386    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=NO    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources    export DERIVED_FILE_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=SmugMug.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/SmugMug.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=SmugMug.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export EFFECTIVE_PLATFORM_NAME=-iphonesimulator    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=SmugMug.app/Executables    export EXECUTABLE_FOLDER_PATH=SmugMug.app    export EXECUTABLE_NAME=SmugMug    export EXECUTABLE_PATH=SmugMug.app/SmugMug    export FILE_LIST=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=SmugMug.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/chris/pmc_dev/mobile/ios/smugmug/build "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=SmugMug.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OBJC_LEGACY_DISPATCH=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=SmugMug/SmugMug-Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_THUMB_SUPPORT=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNINITIALIZED_AUTOS=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/chris/pmc_dev/mobile/ios/smugmug/build/include \"/Users/chris/pmc_dev/mobile/ios/smugmug/build/usr/local/lib/include\" \"/Users/chris/pmc_dev/mobile/ios/smugmug/build/UninstalledProducts/include\" \"/Users/chris/pmc_dev/mobile/ios/smugmug/build\""    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=SmugMug/SmugMug-Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=SmugMug.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=SmugMug.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/SmugMug.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=chris    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/SmugMug.dst    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=SmugMug.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/SmugMug_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-LinkMap-normal-i386.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/chris/pmc_dev/mobile/ios/smugmug/build "    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_i386=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal/i386/SmugMug.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=SmugMug.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.6    export MAC_OS_X_PRODUCT_BUILD_VERSION=13C64    export MAC_OS_X_VERSION_ACTUAL=1092    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0902    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJC_ABI_VERSION=2    export OBJECT_FILE_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects    export OBJECT_FILE_DIR_normal=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Objects-normal    export OBJROOT=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export ONLY_ACTIVE_ARCH=NO    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/usr/local/mysql/bin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/opt/X11/bin:/Users/chris/.rvm/bin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=SmugMug.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS=objective-c    export PKGINFO_FILE_PATH=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/PkgInfo    export PKGINFO_PATH=SmugMug.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    export PLATFORM_NAME=iphonesimulator    export PLATFORM_PREFERRED_ARCH=i386    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLATFORM_VERSION_AVAILABILITY_H_FORMAT=70100    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=SmugMug.app/PlugIns    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=SmugMug.app/PrivateHeaders    export PRODUCT_NAME=SmugMug    export PRODUCT_SETTINGS_PATH=/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=SmugMug    export PROJECT_DERIVED_FILE_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/DerivedSources    export PROJECT_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug    export PROJECT_FILE_PATH=/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug.xcodeproj    export PROJECT_NAME=SmugMug    export PROJECT_TEMP_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build    export PROJECT_TEMP_ROOT=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export PUBLIC_HEADERS_FOLDER_PATH=SmugMug.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/chris/pmc_dev/mobile/ios/smugmug/build "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=SmugMug.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk    export SDK_NAME=iphonesimulator7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=SmugMug.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=SmugMug.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/chris/pmc_dev/mobile/ios/smugmug    export SRCROOT=/Users/chris/pmc_dev/mobile/ios/smugmug    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES="1 2"    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME=SmugMug    export TARGET_BUILD_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export TARGET_NAME=SmugMug    export TARGET_TEMP_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build    export TEMP_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build    export TEMP_FILES_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build    export TEMP_FILE_DIR=/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build    export TEMP_ROOT=/Users/chris/pmc_dev/mobile/ios/smugmug/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH=SmugMug.app    export UNSTRIPPED_PRODUCT=NO    export USER=chris    export USER_APPS_DIR=/Users/chris/Applications    export USER_LIBRARY_DIR=/Users/chris/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS=i386    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=SmugMug.app/version.plist    export VERSION_INFO_BUILDER=chris    export VERSION_INFO_FILE=SmugMug_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:SmugMug  PROJECT:SmugMug-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=SmugMug.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=SmugMug.app/XPCServices    export YACC=yacc    export arch=i386    export diagnostic_message_length=177    export variant=normal    /bin/sh -c /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/Script-304B58A110DAC018002A0835.sh36"5DC8BEE2-9DBD-4A36-A4C4-5EE60E72D155-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CProcessInfoPlistFile /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Info.plist /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist
+s419056060.491461
+e419056060.493431
+r1
+xProcessInfoPlistFile
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Info.plist
+x/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Process /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist92"[1mProcessInfoPlistFile[0m build/SmugMug.app/Info.plist [1mSmugMug/SmugMug-Info.plist[0md8ef7dbc49fab841^26c67ebc49fab841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist0000000000000000^1821"[1mProcessInfoPlistFile[0m build/SmugMug.app/Info.plist [1mSmugMug/SmugMug-Info.plist[0m    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    builtin-infoPlistUtility /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Info.plist -genpkginfo /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app/Info.plist36"FE75B59D-16AB-4C76-873D-F25654EB014A-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CProcessPCH /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch SmugMug/SmugMug-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419056062.462220
+e419056062.637468
+r1
+xProcessPCH
+x/var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch
+xSmugMug/SmugMug-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile SmugMug/SmugMug-Prefix.pch298"[1mProcessPCH[0m /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch SmugMug/SmugMug-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler527e76be49fab841^8b32a3be49fab841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Prefix.pch0000000000000000^4726"[1mProcessPCH[0m /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch SmugMug/SmugMug-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=177 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-generated-files.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-own-target-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-all-target-headers.hmap -iquote /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/SmugMug-project-headers.hmap -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/usr/local/lib/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/UninstalledProducts/include -I/Users/chris/pmc_dev/mobile/ios/smugmug/build -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources/i386 -I/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.build/Debug-iphonesimulator/SmugMug.build/DerivedSources -F/Users/chris/pmc_dev/mobile/ios/smugmug/build --serialize-diagnostics /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.d -c /Users/chris/pmc_dev/mobile/ios/smugmug/SmugMug/SmugMug-Prefix.pch -o /var/folders/lt/30lmqx7x5m70mxvy3t1nbkqm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SmugMug-Prefix-dcghcxnygnbbusfswumrvbvxwdbp/SmugMug-Prefix.pch.pch36"2C2281D3-F0F5-4133-B6AB-8600896928DA-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+
+CTouch /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app
+s419056062.940107
+e419056062.943600
+r1
+xTouch
+x/Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app31"[1mTouch[0m build/SmugMug.appa5bef0be49fab841^0890f1be49fab841^---0#0#1#--1532"[1mTouch[0m build/SmugMug.app    cd /Users/chris/pmc_dev/mobile/ios/smugmug    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/chris/.rvm/gems/ruby-2.1.1/bin:/Users/chris/.rvm/gems/ruby-2.1.1@global/bin:/Users/chris/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/Users/chris/.rbenv/shims:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/usr/local/mysql/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/Users/chris/bin/Sencha/Cmd/3.1.1.274:/Users/chris/reach150/gradle-1.7/bin:/opt/subversion/bin:/opt/local/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/java/apache-ant/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/reach150/iosdev/phonegap-2.7.0/lib/ios/bin:/opt/local/share/java/tomcat6/bin:/Users/chris/.rvm/bin"    /usr/bin/touch -c /Users/chris/pmc_dev/mobile/ios/smugmug/build/SmugMug.app36"7C8AEC9C-7E1D-435C-93A4-05B0B941EC8A-
+b20E56AE7-748A-4E8E-9AC6-03FC4AF883EC
+

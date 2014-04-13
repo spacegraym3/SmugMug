@@ -1,0 +1,24 @@
+{
+	"name": "HTML5 App",
+	"description": "HTML 5 Application test across the browser, Android and iOS.",
+	"version": "1.0",
+	"icons": {
+		"128": "images/icon128.png"
+	},
+	"app": {
+		"urls": [
+			"http://knifegun.users.sonic.net/www/"
+			],
+		"launch": {
+			"web_url": "http://knifegun.users.sonic.net/www/index.html"
+		}
+	},
+	"permissions": [
+		"unlimitedStorage",
+		"notifications",
+		"background", 
+		"geolocation", 
+		"notifications",
+		"unlimitedStorage"
+	]
+}

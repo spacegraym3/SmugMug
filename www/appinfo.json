@@ -1,0 +1,9 @@
+{
+	"id": "com.phonegap.webos",
+	"version": "0.0.1",
+	"vendor": "PMC",
+	"type": "web",
+	"main": "index_webos.html",
+	"title": "SmugMug WebOS",
+	"uiRevision": 2
+}
